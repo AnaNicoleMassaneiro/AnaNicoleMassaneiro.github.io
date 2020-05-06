@@ -1,0 +1,102 @@
+ <div class="container-fluid">
+    <div class="row">
+        <!--The content below is only a placeholder and can be replaced.-->
+        <div class="col-md-12 py-5 bg-dark px-md-5 shadow">
+            <div class="container">
+
+                <!-- Content -->
+                <div class="row">
+                    <div class="card col-md-12 text-center">
+                        <div class="text-center pt-5">
+                            <h5>Eu ainda estou desenvolvendo esse formulário então por favor me ligue, mande um e-mail ou uma mensagem no WhatsApp :)</h5>
+                            <h6 class="text-danger pb-2">Entrarei em contato o mais rápido possível </h6>
+                        </div>
+                        <div class="row px-md-5 py-5">
+                            <div class="col-md-4 col-sm-4 text-right pb-3 d-none d-md-block d-lg-block" [@animate]="{value:'*', params:{ y:'-100px', delay:'600ms' }}">
+                                <!-- Personal Info --><br>
+                                <div style="color: #515557;">
+                                    <p>Curitiba, Pr</p>
+                                </div>
+                                <hr>
+                                <!-- Personal Info -->
+                                <div style="color: #515557;">
+                                    <p><strong>Email: </strong> ana.nicole02@gmail.com</p>
+                                    <p><strong>Telefone / WhatsApp: </strong>41 9 9902 8158</p>
+                                </div>
+                                <hr>
+
+                                <div>
+                                    <p><a href='#'>Google Maps <span class="glyphicon glyphicon-arrow-right"></span></a></p>
+                                    <img src="/assets/images/Google-Maps-icon.png" width="100" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-8 col-sm-8 pb-3 text-left">
+                                <form [formGroup]="contactForm" [@animate]="{value:'*', params:{ y:'-100px', delay:'600ms' }}">
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control" id="inputSubject" name='subject' placeholder="Nome" formControlName="subject" [ngClass]="!contactForm.controls['subject'].valid && contactForm.controls['subject'].touched ? 'invalidInput' : ''" required>
+
+                                                <!-- VALIDATION MESSAGE -->
+                                                <label class="invalidLabel text-danger fs-10 text-right mt-2" *ngIf="!contactForm.controls['subject'].valid && contactForm.controls['subject'].touched">Nome é obrigatório.</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control" id="name" name='name' placeholder="Contato" formControlName="name" [ngClass]="!contactForm.controls['name'].valid && contactForm.controls['name'].touched ? 'invalidInput' : ''" required>
+
+                                                <!-- VALIDATION MESSAGE -->
+                                                <label class="invalidLabel text-danger fs-10 text-right mt-2" *ngIf="!contactForm.controls['name'].valid && contactForm.controls['name'].touched">Contato é obrigatório</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control" id="email" name='email' placeholder="Email" formControlName="email" [ngClass]="!contactForm.controls['email'].valid && contactForm.controls['email'].touched ? 'invalidInput' : ''" required>
+
+                                                <!-- VALIDATION MESSAGE -->
+                                                <label class="invalidLabel text-danger fs-10 text-right mt-2" *ngIf="!contactForm.controls['email'].valid && contactForm.controls['email'].touched">Formato do email está inválido</label>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="form-group">
+                                            <label for="message" class="col-md-12 control-label">Messagem:</label>
+                                            <div class="col-md-12">
+                                                <textarea class="form-control" rows="3" id="message" name='message' formControlName="message" [ngClass]="!contactForm.controls['message'].valid && contactForm.controls['message'].touched ? 'invalidInput' : ''" required></textarea>
+
+                                                <!-- VALIDATION MESSAGE -->
+                                                <label class="invalidLabel text-danger fs-10 text-right mt-2" *ngIf="!contactForm.controls['message'].valid && contactForm.controls['message'].touched">Mnesagem é obrigaróia</label>
+                                            </div>
+                                        </div>
+
+                                        <br>
+                                        <div class="form-group">
+                                            <div class="col-md-12 text-center d-none d-md-block d-sm-none d-lg-block">
+                                                <button class="px-5 mr-3 btn btn-danger text-gray-dark" type="reset" style="border-radius: 0px;">Resetar</button>
+                                                <button class="px-5 btn btn-dark text-gray-dark" type="submit" style="border-radius: 0px;">Enviar</button>
+                                            </div>
+
+                                            <div class="d-none d-md-none d-block d-lg-none d-sm-block">
+                                                <button class="px-5 mr-3 btn btn-danger btn-block text-gray-dark" type="reset" style="border-radius: 0px;">Resetar</button><br>
+                                                <button class="px-5 btn btn-dark btn-block text-gray-dark" type="submit" style="border-radius: 0px;">Enviar</button>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+

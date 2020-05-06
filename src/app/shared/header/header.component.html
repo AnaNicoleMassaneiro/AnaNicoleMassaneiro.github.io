@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ml-auto" [ngClass]="fixed ? 'fixed-top': ''" (scroll)="onWindowScroll($event)" >
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navCollapseContent" aria-controls="navCollapseContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+
+
+	  	<a class="navbar-brand d-md-none d-lg-none d-none d-sm-block d-block" href="#"></a>
+
+	  	<div class="navbar-collapse collapse"  id="navCollapseContent">
+	  		<ul class="navbar-nav mx-auto">
+	  			<li class="nav-item d-md-none d-lg-none d-none d-sm-block d-block social-min">
+	  				<hr>
+	  			</li>
+	  			<li class="nav-item mx-2" data-toggle="collapse" data-target=".navbar-collapse.show">
+	  				<a class="nav-link hvr-underline-from-left hvr-grow" href="/">Home</a>
+	  			</li>
+	  			<li class="nav-item mx-2" data-toggle="collapse" data-target=".navbar-collapse.show">
+	  				<a class="nav-link hvr-underline-from-left hvr-grow" routerLink="/about">Sobre</a>
+	  			</li>
+	  			<!-- <li class="nav-item mx-2" data-toggle="collapse" data-target=".navbar-collapse.show">
+	  				<a class="nav-link hvr-underline-from-left hvr-grow" routerLink="/portfolio">Portfolio</a>
+          </li> -->
+         <li class="nav-item mx-2" data-toggle="collapse" data-target=".navbar-collapse.show">
+	  				<a class="nav-link hvr-underline-from-left hvr-grow" routerLink="/experiences">CV Resumo</a>
+	  			</li>
+	  			<li class="nav-item mx-2" data-toggle="collapse" data-target=".navbar-collapse.show">
+	  				<a class="nav-link hvr-underline-from-left hvr-grow" routerLink="/skills">Skills</a>
+	  			</li>
+	  			<li class="nav-item mx-2" data-toggle="collapse" data-target=".navbar-collapse.show">
+	  				<a class="nav-link hvr-underline-from-left hvr-grow" routerLink="/contact-me">Fale Comigo</a>
+	  			</li>
+		  		</ul>
+	  	</div>
+</nav>
+
+<div class="mt-5" [ngClass]="fixed ? 'd-block': 'd-none'"><br><br></div>

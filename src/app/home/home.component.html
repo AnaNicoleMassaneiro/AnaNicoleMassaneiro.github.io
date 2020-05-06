@@ -1,0 +1,59 @@
+
+<div class="container-fluid ">
+	<div class="row">
+		<div class="navigation-button d-none d-sm-none d-md-block enlarge" [@fadeInFrom]="navTop">
+			<span class="navigation-button" (click)="navigateTop()" class="fa fa-angle-double-up"></span><p class="text-uppercase pt-0 mt-0">Top</p>
+		</div>
+
+		<!--The content below is only a placeholder and can be replaced.-->
+  <div class="col-md-12 py-5 bg-dark " >
+			<div class="px-md-5 text-center my-3"  [@fadeInFrom]="state" [@fadeIn]>
+
+				<img src="/assets/images/profile-ana.jpg" class="img img-fluid rounded-circle profile-picture shadow-sm container-text" alt="Ana Nicole Massaneiro"><br><br>
+				<br>
+        <h1 class="text-white container-text">Ana Nicole Massaneiro</h1>
+        <br><br><br>
+				<h5 class="text-danger line-1 typewriter d-none d-sm-none d-md-block container-text">Desenvolvedora Front End</h5><br>
+
+				<hr style="width: 50px;" class="text-white bg-white container-text"><br><br>
+        <br><br><br><br>
+				<div class="social text-center text-danger pt-0 container-text">
+					<a class="social px-2" href="https://www.facebook.com/ananicolemassaneiro" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a class="social px-2" href="https://github.com/ananicolemassaneiro" target="_blank"><i class="fa fa-github"></i></a>
+					<a class="social px-2" href="https://www.linkedin.com/in/ana-nicole-massaneiro/"  target="_blank"><i class="fa fa-linkedin"></i></a>
+				</div><br><br>
+			</div>
+			<!-- Particle.js -->
+			<particles [params]="myParticleParam" [style]="myParticleStyle" [width]="width" [height]="height"></particles>
+		</div>
+
+		<!--The content below is only a placeholder and can be replaced.-->
+		<div class="col-md-12">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 py-md-5">
+						<home-about [@slideIn]></home-about>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-12 slanted" >
+			<home-skills></home-skills>
+		</div>
+
+
+	<!--	<div class="col-md-12">
+			<span id="home-portfolio"></span>
+			<home-portfolio></home-portfolio>
+		</div>-->
+
+
+
+		<div class="col-md-12 py-md-5">
+			<span id="home-portfolio"></span>
+			<home-footer></home-footer>
+		</div>
+	</div>
+</div>
+

@@ -1,75 +1,27 @@
-# Particle Jekyll Theme
+# Ana Nicole Massaneiro resume created using Angular 5
 
-![](./particle.jpg)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
-This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
+## Development server
 
-The Theme features:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-- Gulp
-- SASS
-- Sweet Scroll
-- Particle.js
-- BrowserSync
-- Font Awesome and Devicon icons
-- Google Analytics
-- Info Customization
+## Code scaffolding
 
-## Basic Setup
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Clone the particle theme: `git clone https://github.com/nrandecker/particle.git`
-3. Edit `_config.yml` to personalize your site.
+## Build
 
-## Site and User Settings
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-You have to fill some informations on `_config.yml` to customize your site.
+## Running unit tests
 
-```
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-# User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-```
+## Running end-to-end tests
 
-**Don't forget to change your url before you deploy your site!**
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Color and Particle Customization
-- Color Customization
-  - Edit the sass variables
-- Particle Customization
-  - Edit the json data in particle function in app.js
-  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
+## Further help
 
-## Running the blog in local
-
-In order to compile the assets and run Jekyll on local you need to follow those steps:
-
-- Install [NodeJS](https://nodejs.org/)
-- Install [Jekyll](https://jekyllrb.com): `sudo gem install bundler jekyll`
-- Install [Yarn](https://yarnpkg.com/): `npm install -g yarn`
-- Install dependencies: `yarn`
-- Run: `gulp`
-
-## Questions
-
-Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
-
-## License
-
-This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
-
-## Credits
-
-This theme was partially designed with the inspiration from these fine folks
-- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
-- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
