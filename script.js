@@ -1,5 +1,3 @@
-//Retirado de http://henriquevianna.com/code/ia/jogo-da-velha.html
-		
 estado = [];	// estado do tabuleiro na tela
 var raiz; 			// primeiro nodo da arvore
 var atual;			// ponteiro para o nodo que representa o estado atual do jogo
