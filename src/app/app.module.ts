@@ -15,6 +15,10 @@ import { HeaderComponent } from "./header/header.component";
 import { EducationComponent } from "./education/education.component";
 import { SkillProgressComponent } from "./skill-progress/skill-progress.component";
 import { FooterComponent } from "./footer/footer.component";
+import { GithubCalendarComponent } from "./github-calendar/github-calendar.component";
+import { TopButtonComponent } from "./top-button/top-button.component";
+import { ExperienceComponent } from "./experience/experience.component";
+import { ExperienceCardComponent } from "./experience/experience-card/experience-card.component";
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { FooterComponent } from "./footer/footer.component";
     HeaderComponent,
     EducationComponent,
     SkillProgressComponent,
-    FooterComponent
+    FooterComponent,
+    GithubCalendarComponent,
+    TopButtonComponent,
+    ExperienceComponent,
+    ExperienceCardComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +44,9 @@ import { FooterComponent } from "./footer/footer.component";
     FontAwesomeModule,
     ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [
+    { provide: Window, useValue: window }
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
