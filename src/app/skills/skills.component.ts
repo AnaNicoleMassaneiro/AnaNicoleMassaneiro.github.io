@@ -10,7 +10,7 @@ export class SkillsComponent implements OnInit{
   skillsSection = {
     title: "Veja quais as minhas qualificações 💁‍♂️",
     subTitle:
-      "DESENVOLVEDORA MUITO DOIDA FULL STACK QUE QUER EXPLORAR CADA STACK DE TECNOLOGIA",
+      "DESENVOLVEDORA FULL STACK",
     skills: [
       "⚡ Desenvolvo front-end/interfaces de usuário altamente interativas para seus aplicativos web e móveis",
       "⚡ Criando back-end de aplicativo em Node, Express & JAVA com Spring Boot",

@@ -10,6 +10,10 @@ import { SoftwareSkillComponent } from "./skills/software-skill/software-skill.c
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { ReactiveFormsModule } from "@angular/forms";
+import { ContactComponent } from "./contact/contact.component";
+import { HeaderComponent } from "./header/header.component";
+import { EducationComponent } from "./education/education.component";
+import { SkillProgressComponent } from "./skill-progress/skill-progress.component";
 
 @NgModule({
   declarations: [
@@ -18,6 +22,10 @@ import { ReactiveFormsModule } from "@angular/forms";
     SocialMediaComponent,
     SkillsComponent,
     SoftwareSkillComponent,
+    ContactComponent,
+    HeaderComponent,
+    EducationComponent,
+    SkillProgressComponent
   ],
   imports: [
     BrowserModule,
