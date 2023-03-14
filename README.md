@@ -1,12 +1,5 @@
 # Portfólio de Desenvolvedor de Software usando Angular ⚡️
 
-<p align="center">
-  <kbd>
-<img src="./src/assets/images/portfolio.gif"></img>
-  </kbd>
-</p>
-
-
 ## Seções
 ✔️ Resumo e Sobre mim\
 ✔️ Habilidades\

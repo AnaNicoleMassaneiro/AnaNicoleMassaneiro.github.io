@@ -14,6 +14,7 @@ import { ContactComponent } from "./contact/contact.component";
 import { HeaderComponent } from "./header/header.component";
 import { EducationComponent } from "./education/education.component";
 import { SkillProgressComponent } from "./skill-progress/skill-progress.component";
+import { FooterComponent } from "./footer/footer.component";
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SkillProgressComponent } from "./skill-progress/skill-progress.componen
     ContactComponent,
     HeaderComponent,
     EducationComponent,
-    SkillProgressComponent
+    SkillProgressComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
