@@ -1,27 +1,47 @@
-# ProfineAna
+# Portfólio de Desenvolvedor de Software usando Angular ⚡️
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+<p align="center">
+  <kbd>
+<img src="./src/assets/images/portfolio.gif"></img>
+  </kbd>
+</p>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Seções
+✔️ Resumo e Sobre mim\
+✔️ Habilidades\
+✔️ Proficiência\
+✔️Experiência Profissional\
+✔️ Cronograma de Educação\
+✔️ Projetos de código aberto conectados ao Github\
+✔️ Contacte-me\
+✔️ Perfil do Github
+Para ver um exemplo ao vivo, **[clique aqui](https://ananicolemassaneiro.github.io/)**
 
-## Code scaffolding
+## Começando 🚀
+Estas instruções fornecerão uma cópia do projeto em execução em sua máquina local para fins de desenvolvimento e teste.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Você precisará de [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/download/) (que vem com [npm](http:// npmjs.com)) instalado em seu computador.
 
-## Build
+```
+node@v10.16.0 ou superior
+npm@6.9.0 ou superior
+git@2.17.1 ou superior
+Angular@8.0.2 ou superior
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Como Usar 🔧
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Na linha de comando, clone e execute o AngularFolio:
+```bash
+# Clone este repositório
+$ git clone https://github.com/sarthakgoenka/Angularfolio
 
-## Running end-to-end tests
+# Entra no repositório
+$ cd AnaNicoleMassaneiro.github.io
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Instalar dependências
+instalação de $npm
+$ ng server
+```
