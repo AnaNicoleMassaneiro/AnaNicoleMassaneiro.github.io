@@ -19,6 +19,7 @@ import { GithubCalendarComponent } from "./github-calendar/github-calendar.compo
 import { TopButtonComponent } from "./top-button/top-button.component";
 import { ExperienceComponent } from "./experience/experience.component";
 import { ExperienceCardComponent } from "./experience/experience-card/experience-card.component";
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { ExperienceCardComponent } from "./experience/experience-card/experience
     BrowserAnimationsModule,
     FontAwesomeModule,
     ReactiveFormsModule,
+    NgbModule
   ],
   providers: [
     { provide: Window, useValue: window }
