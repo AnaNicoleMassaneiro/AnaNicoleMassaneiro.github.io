@@ -42,7 +42,7 @@ import {
 export class HeaderComponent implements OnInit {
   constructor() {}
   greeting = {
-    username: "Ana Nicole Massaneiro",
+    username: "Ana Nicole",
     title: "Better Call Ana",
     subTitle:
       "Formada em Analise e Desenvolvimento de Sistema pela UFPR, especialista em desenvolvimento ágil de software e atualmente estudante de mestrado em ciência da computação na UFPR. Trabalho como desenvolvedora Fullstack Sênior na IBM, atuando em um cliente internacional e em um time de alta performance.",
